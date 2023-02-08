@@ -56,7 +56,7 @@ public class JuegoCamaraSecreta2 {
 		}
 		System.out.println("\u2714 ¡¡¡Enhorabuena!!! ¡¡¡Has acertado!!!");
 	
-		//falta imprimir por cada elemento del array si es mas o menos//	
+			
 	entrada.close();	
 	}
 
