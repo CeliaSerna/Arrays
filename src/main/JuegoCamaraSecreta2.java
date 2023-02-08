@@ -36,7 +36,7 @@ public class JuegoCamaraSecreta2 {
 		System.out.println("Tu combinación es -> "+Arrays.toString(intento));
 	
 		if (!Arrays.equals(combinacion, intento)) {
-		System.err.println("¡¡ Has fallado !!");
+		System.err.println("\u2718 ¡¡ Has fallado !!");
 		for ( int i =0; i <longitud; i++) {
 			if (intento[i] < combinacion[i] ) {
 				System.out.print(intento[i] );	
@@ -54,7 +54,7 @@ public class JuegoCamaraSecreta2 {
 		
 		}
 		}
-		System.out.println("¡¡¡Enhorabuena!!! ¡¡¡Has acertado!!!");
+		System.out.println("\u2714 ¡¡¡Enhorabuena!!! ¡¡¡Has acertado!!!");
 	//comentario
 		//falta imprimir por cada elemento del array si es mas o menos//	
 	entrada.close();	
